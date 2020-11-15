@@ -4,6 +4,7 @@ using HarmonyLib;
 namespace PC_ScrollableUI
 {
     [BepInPlugin(nameof(PC_ScrollableUI), nameof(PC_ScrollableUI), VERSION)]
+    [BepInProcess("PlayClub")]
     public class PC_ScrollableUI : BaseUnityPlugin
     {
         public const string VERSION = "1.0.0";
